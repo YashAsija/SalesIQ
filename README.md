@@ -2,6 +2,8 @@
 
 **SalesIQ Hindsight Portal** is an advanced B2B Enterprise Sales Intelligence Engine designed to act as a dynamic, interactive memory bank and strategic assistant for sales representatives. It tracks high-stake account data, logs negotiations, and uses AI-powered hindsight models to build "Deal Readiness" metrics.
 
+🌟 **Live Demo:** [https://salesiq-5tgz.onrender.com/](https://salesiq-5tgz.onrender.com/)
+
 ## 🚀 Key Features
 
 *   **Dynamic Account Focus:** Manage multiple high-stake buyers. Switching "Focus Rooms" instantly adapts the dashboard and memory ledgers to the targeted client.
