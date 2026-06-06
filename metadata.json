@@ -1,0 +1,6 @@
+{
+  "name": "SalesIQ",
+  "description": "An AI sales intelligence agent that dynamically learns from every client call, email, and deal debrief using a transparent Retain-Recall-Reflect memory ledger.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

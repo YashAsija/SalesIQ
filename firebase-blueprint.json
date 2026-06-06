@@ -1,0 +1,42 @@
+{
+  "entities": {
+    "UserProfile": {
+      "title": "UserProfile",
+      "description": "Represents basic user profile information",
+      "type": "object",
+      "properties": {
+        "uid": {
+          "type": "string",
+          "description": "Unique identification UID for the user"
+        },
+        "email": {
+          "type": "string",
+          "description": "Active email address of the authenticated user"
+        },
+        "displayName": {
+          "type": "string",
+          "description": "Human-readable display name"
+        },
+        "role": {
+          "type": "string",
+          "description": "Company role or job title of the sales representative"
+        },
+        "company": {
+          "type": "string",
+          "description": "Company organization name"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": ["uid", "email"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "UserProfile",
+      "description": "Stores basic user profile records matched to Firebase Auth UID"
+    }
+  }
+}
